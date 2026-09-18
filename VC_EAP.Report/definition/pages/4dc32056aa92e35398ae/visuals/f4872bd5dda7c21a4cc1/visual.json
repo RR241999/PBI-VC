@@ -1,0 +1,70 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.11.0/schema.json",
+  "name": "f4872bd5dda7c21a4cc1",
+  "position": {
+    "x": 0,
+    "y": 374.46155720217871,
+    "z": 8000,
+    "height": 62.298244510304208,
+    "width": 79.898227394321268,
+    "tabOrder": 6000
+  },
+  "visual": {
+    "visualType": "image",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "imageUrl": {
+              "expr": {
+                "ResourcePackageItem": {
+                  "PackageName": "RegisteredResources",
+                  "PackageType": 1,
+                  "ItemName": "report_an_issue_white_transpar8408399409976199.png"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "visualLink": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "tooltip": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Report an issue or submit a question'"
+                }
+              }
+            },
+            "type": {
+              "expr": {
+                "Literal": {
+                  "Value": "'WebUrl'"
+                }
+              }
+            },
+            "webUrl": {
+              "expr": {
+                "Literal": {
+                  "Value": "'https://forms.office.com/Pages/ResponsePage.aspx?id=8giMvgesLESaRuvu61vU11DFVDM2dxJNoXLO5dDjXBFUNUg1NU9RQUxSU1M1QTdBQUdSSFVVUjZKUC4u&origin=Invitation&channel=1'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "parentGroupName": "8956a3de0b7b3e3cfdb9"
+}

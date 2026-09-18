@@ -1,0 +1,10 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.1.0/schema.json",
+  "name": "e2e790ae8edbaace6887",
+  "displayName": "TT Counseling Sessions Main Page",
+  "displayOption": "ActualSize",
+  "height": 70,
+  "width": 250,
+  "visibility": "HiddenInViewMode",
+  "type": "Tooltip"
+}

@@ -1,0 +1,10 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.1.0/schema.json",
+  "name": "8cf2e4881a3c8e6d4555",
+  "displayName": " TT Counseling Incidents",
+  "displayOption": "ActualSize",
+  "height": 70,
+  "width": 250,
+  "visibility": "HiddenInViewMode",
+  "type": "Tooltip"
+}

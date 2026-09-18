@@ -1,0 +1,10 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.1.0/schema.json",
+  "name": "a27439ff959d6cdb8cb3",
+  "displayName": "TT Incidents w/max Session",
+  "displayOption": "ActualSize",
+  "height": 70,
+  "width": 250,
+  "visibility": "HiddenInViewMode",
+  "type": "Tooltip"
+}

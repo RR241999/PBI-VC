@@ -1,0 +1,10 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.1.0/schema.json",
+  "name": "be7fba772f3a5436cb3a",
+  "displayName": "TTEmployees with EAP",
+  "displayOption": "ActualSize",
+  "height": 70,
+  "width": 250,
+  "visibility": "HiddenInViewMode",
+  "type": "Tooltip"
+}

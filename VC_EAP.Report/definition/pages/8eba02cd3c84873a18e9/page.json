@@ -1,0 +1,9 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.1.0/schema.json",
+  "name": "8eba02cd3c84873a18e9",
+  "displayName": "TTTotal Incidents",
+  "displayOption": "ActualSize",
+  "height": 70,
+  "width": 300,
+  "type": "Tooltip"
+}

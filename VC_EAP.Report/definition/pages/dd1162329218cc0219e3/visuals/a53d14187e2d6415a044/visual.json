@@ -1,0 +1,17 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
+  "name": "a53d14187e2d6415a044",
+  "position": {
+    "x": 0,
+    "y": 161.18554784657681,
+    "z": 8,
+    "height": 1300.8144521534232,
+    "width": 2449.7447309857312,
+    "tabOrder": 19000
+  },
+  "visualGroup": {
+    "displayName": "Excel Navigation",
+    "groupMode": "ScaleMode"
+  },
+  "isHidden": true
+}

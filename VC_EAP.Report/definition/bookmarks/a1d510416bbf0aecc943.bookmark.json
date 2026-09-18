@@ -1,0 +1,3493 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/bookmark/2.1.0/schema.json",
+  "displayName": "Reset Member",
+  "name": "a1d510416bbf0aecc943",
+  "options": {
+    "targetVisualNames": [
+      "824def4c2225998bc9e5",
+      "7005814c9302ac5b7bba",
+      "ccf2edad9f1682b69867",
+      "b63b1ada4f7be91e40e3",
+      "32662b96b55c51a31085",
+      "085e7eb7d3f1aa7b7060",
+      "b618d53235562ffe1ee1",
+      "2d69b4cc94c6cf80ffb2",
+      "0383013c0f923f82fe3e",
+      "62b1c8c3e0192b378cab",
+      "ce55657c1daf498e2515",
+      "e188a30e7d55f34ec6cd",
+      "521b722f48043cda0e62",
+      "965910de2cceeb9fbd3b",
+      "b8453b5268b5ac69a63e",
+      "c6ca778bcd5e1987e2c3",
+      "2c22f5caf05ffb3be03f",
+      "26d7a402549049404753",
+      "cc1d45eb717352c673ab",
+      "9e9452091f37653ddccd",
+      "defde627b3b7ba1d797e",
+      "2099c9f2d682c325c167",
+      "344f001c282521899f92",
+      "3ccc1abce0b9fc796a37",
+      "955516a1feeb2e04d31b",
+      "103750b0039069f584cc",
+      "f7e3da2561b7b2b8f43b",
+      "78460b6bc1756654fe5c",
+      "440a8ee4563e58b20847",
+      "4181aa4fb4f46eee0968",
+      "96fb4677d910b4c1695a",
+      "275c30993e3556c6305b",
+      "7a71a8eb9ceaed4483ad"
+    ]
+  },
+  "explorationState": {
+    "version": "1.3",
+    "activeSection": "2e2eefdd22362cb378e7",
+    "sections": {
+      "2e2eefdd22362cb378e7": {
+        "visualContainers": {
+          "0672a53846cc34509b79": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "5fd9c38a0fdc4d640bd6",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Schema": "extension",
+                          "Entity": "FACT_EAP_MBR_INCDNT_DTL"
+                        }
+                      },
+                      "Property": "Indicator"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "c97cab725a42c0bb3222",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Schema": "extension",
+                          "Entity": "FACT_EAP_MBR_INCDNT_DTL"
+                        }
+                      },
+                      "Property": "Indicator"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "fc8c5744da7ace548a00",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "FACT_EAP_MBR_INCDNT_DTL"
+                        }
+                      },
+                      "Property": "Counseling Incidents"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "card",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 2,
+                  "Expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "FACT_EAP_MBR_INCDNT_DTL"
+                        }
+                      },
+                      "Property": "Counseling Incidents"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "0711f658fa6f9d313563": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "08e1bedfbc05b77114de": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "b38162a5a840b1026fdb",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "FACT_EAP_MBR_INCDNT_DTL"
+                        }
+                      },
+                      "Property": "Incident Creation Rate EAP Members with household"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "card",
+              "objects": {}
+            }
+          },
+          "12685974673a408dd1f4": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "14892c138e694fbedd44": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "2604adf8964e0111af91",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "FACT_EAP_MBR_INCDNT_DTL"
+                        }
+                      },
+                      "Property": "Incident Creation Rate Anthem Members"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "card",
+              "objects": {}
+            }
+          },
+          "15ca6668f9ebc7d8d6c0": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "163684211ae89c85d4a1": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "f70b368137b24de1c291",
+                  "type": "Categorical",
+                  "filter": {
+                    "Version": 2,
+                    "From": [
+                      {
+                        "Name": "d",
+                        "Entity": "DIM_EAP_INCDNT_ENTY",
+                        "Type": 0
+                      }
+                    ],
+                    "Where": [
+                      {
+                        "Condition": {
+                          "In": {
+                            "Expressions": [
+                              {
+                                "Column": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Source": "d"
+                                    }
+                                  },
+                                  "Property": "EAP Incident Counseling Indicator"
+                                }
+                              }
+                            ],
+                            "Values": [
+                              [
+                                {
+                                  "Literal": {
+                                    "Value": "'N'"
+                                  }
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "DIM_EAP_INCDNT_ENTY"
+                        }
+                      },
+                      "Property": "EAP Incident Counseling Indicator"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "cd9bcbd0036ae903c578",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "DIM_EAP_INCDNT_ENTY"
+                        }
+                      },
+                      "Property": "EAP Incident Service Group Description"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "398e5b2c9edc7e6036c6",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "FACT_EAP_MBR_INCDNT_DTL"
+                        }
+                      },
+                      "Property": "Incidents PY"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "10ea8bb6f7843cb824e9",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "FACT_EAP_MBR_INCDNT_DTL"
+                        }
+                      },
+                      "Property": "Incidents % Change"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "6235af5b4cd86b2056bc",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "FACT_EAP_MBR_INCDNT_DTL"
+                        }
+                      },
+                      "Property": "Incidents"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "clusteredBarChart",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 2,
+                  "Expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "FACT_EAP_MBR_INCDNT_DTL"
+                        }
+                      },
+                      "Property": "Incidents"
+                    }
+                  }
+                }
+              ],
+              "activeProjections": {
+                "Category": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "DIM_EAP_INCDNT_ENTY"
+                        }
+                      },
+                      "Property": "EAP Incident Service Group Description"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "16ec24791aafd6892ee1": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "1c71cfb9bac566616abe": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "d745ea556aa857e26f98",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "FACT_EAP_GRP_SUBGRP"
+                        }
+                      },
+                      "Property": "Estimated Members Eligible"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "a0980e3240db304058ef",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "FACT_EAP_GRP_SUBGRP"
+                        }
+                      },
+                      "Property": "Estimated Members Eligible %  Change"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "BBED0A4D4D8D44CE93CF2DAFADEE466C",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 2,
+                  "Expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "FACT_EAP_GRP_SUBGRP"
+                        }
+                      },
+                      "Property": "Estimated Members Eligible"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "2cb379471022dd50dc5f": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "34a557fd406217d34772",
+                  "type": "Categorical",
+                  "filter": {
+                    "Version": 2,
+                    "From": [
+                      {
+                        "Name": "d",
+                        "Entity": "DIM_EAP_INCDNT_SRVC_TYPE",
+                        "Type": 0
+                      }
+                    ],
+                    "Where": [
+                      {
+                        "Condition": {
+                          "Not": {
+                            "Expression": {
+                              "In": {
+                                "Expressions": [
+                                  {
+                                    "Column": {
+                                      "Expression": {
+                                        "SourceRef": {
+                                          "Source": "d"
+                                        }
+                                      },
+                                      "Property": "EAP Incident Service Type Description"
+                                    }
+                                  }
+                                ],
+                                "Values": [
+                                  [
+                                    {
+                                      "Literal": {
+                                        "Value": "null"
+                                      }
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "Literal": {
+                                        "Value": "'Adult Calling for Another Adult'"
+                                      }
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "Literal": {
+                                        "Value": "'Work Life'"
+                                      }
+                                    }
+                                  ]
+                                ]
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "DIM_EAP_INCDNT_SRVC_TYPE"
+                        }
+                      },
+                      "Property": "EAP Incident Service Type Description"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "bba9098889cb6168af51",
+                  "type": "Categorical",
+                  "filter": {
+                    "Version": 2,
+                    "From": [
+                      {
+                        "Name": "d",
+                        "Entity": "DIM_EAP_INCDNT_ENTY",
+                        "Type": 0
+                      }
+                    ],
+                    "Where": [
+                      {
+                        "Condition": {
+                          "In": {
+                            "Expressions": [
+                              {
+                                "Column": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Source": "d"
+                                    }
+                                  },
+                                  "Property": "EAP Incident Counseling Indicator"
+                                }
+                              }
+                            ],
+                            "Values": [
+                              [
+                                {
+                                  "Literal": {
+                                    "Value": "'Y'"
+                                  }
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "DIM_EAP_INCDNT_ENTY"
+                        }
+                      },
+                      "Property": "EAP Incident Counseling Indicator"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "38efc4a5cc867a31c389",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "FACT_EAP_MBR_INCDNT_DTL"
+                        }
+                      },
+                      "Property": "Incidents PY"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "e911fdbe6d312c6ea821",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "FACT_EAP_MBR_INCDNT_DTL"
+                        }
+                      },
+                      "Property": "Incidents % Change"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "2ae48d4ce3844e12f942",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "FACT_EAP_MBR_INCDNT_DTL"
+                        }
+                      },
+                      "Property": "Incidents"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "clusteredBarChart",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 2,
+                  "Expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "FACT_EAP_MBR_INCDNT_DTL"
+                        }
+                      },
+                      "Property": "Incidents"
+                    }
+                  }
+                }
+              ],
+              "activeProjections": {
+                "Category": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "DIM_EAP_INCDNT_SRVC_TYPE"
+                        }
+                      },
+                      "Property": "EAP Incident Service Type Description"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "302f8ee530a45830936a": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "bb31a3e2919557895224",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "FACT_EAP_MBR_INCDNT_DTL"
+                        }
+                      },
+                      "Property": "Counseling Sessions"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "card",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 2,
+                  "Expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "FACT_EAP_MBR_INCDNT_DTL"
+                        }
+                      },
+                      "Property": "Counseling Sessions"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "32bae01ec198e526f710": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "36ea114d69d395225226": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "f628c96cb7e345921191",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "DIM_EAP_INCDNT_PRSNT_PRBLM"
+                        }
+                      },
+                      "Property": "INCDNT_PRSNT_PRBLM_DTL_2_DESC"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "d6a2b4b6a8b67233921c",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "DIM_EAP_INCDNT_PRSNT_PRBLM"
+                        }
+                      },
+                      "Property": "EAP Incident Presenting Problem 1 Description"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "1a801c3c40a0b036686b",
+                  "type": "Advanced",
+                  "expression": {
+                    "Arithmetic": {
+                      "Left": {
+                        "Measure": {
+                          "Expression": {
+                            "SourceRef": {
+                              "Entity": "FACT_EAP_MBR_INCDNT_DTL"
+                            }
+                          },
+                          "Property": "Incidents"
+                        }
+                      },
+                      "Right": {
+                        "ScopedEval": {
+                          "Expression": {
+                            "Measure": {
+                              "Expression": {
+                                "SourceRef": {
+                                  "Entity": "FACT_EAP_MBR_INCDNT_DTL"
+                                }
+                              },
+                              "Property": "Incidents"
+                            }
+                          },
+                          "Scope": []
+                        }
+                      },
+                      "Operator": 3
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "18c7fd71a393c7fb941f",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "FACT_EAP_MBR_INCDNT_DTL"
+                        }
+                      },
+                      "Property": "Incidents PY"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "7d13704b9bc2d1d73b62",
+                  "type": "Advanced",
+                  "expression": {
+                    "Arithmetic": {
+                      "Left": {
+                        "Measure": {
+                          "Expression": {
+                            "SourceRef": {
+                              "Entity": "FACT_EAP_MBR_INCDNT_DTL"
+                            }
+                          },
+                          "Property": "Incidents PY"
+                        }
+                      },
+                      "Right": {
+                        "ScopedEval": {
+                          "Expression": {
+                            "Measure": {
+                              "Expression": {
+                                "SourceRef": {
+                                  "Entity": "FACT_EAP_MBR_INCDNT_DTL"
+                                }
+                              },
+                              "Property": "Incidents PY"
+                            }
+                          },
+                          "Scope": []
+                        }
+                      },
+                      "Operator": 3
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "bccc794fc6a770e44ce6",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "FACT_EAP_MBR_INCDNT_DTL"
+                        }
+                      },
+                      "Property": "Incidents % Change"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "73acecd914d91d5cd832",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "FACT_EAP_MBR_INCDNT_DTL"
+                        }
+                      },
+                      "Property": "Incidents"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "clusteredBarChart",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 2,
+                  "Expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "FACT_EAP_MBR_INCDNT_DTL"
+                        }
+                      },
+                      "Property": "Incidents"
+                    }
+                  }
+                }
+              ],
+              "activeProjections": {
+                "Category": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "DIM_EAP_INCDNT_PRSNT_PRBLM"
+                        }
+                      },
+                      "Property": "EAP Incident Presenting Problem 1 Description"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "3b845d27c0bad6cc351c": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "8217aaf32e7040cd749e",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "FACT_EAP_MBR_INCDNT_DTL"
+                        }
+                      },
+                      "Property": "Incident Creation Rate Employees"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "card",
+              "objects": {}
+            }
+          },
+          "139077f6a0a39c86e5f3": {
+            "singleVisual": {
+              "visualType": "shape",
+              "objects": {}
+            }
+          },
+          "26c2cc35d2ad94fd281d": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "828819f5409c5f1f2f94": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "900d25f83de92105a1d3": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "3e59e8c50e1724939719": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "63db614fd4251d05ba19": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "95117e9ed39759668771": {
+            "singleVisual": {
+              "visualType": "basicShape",
+              "objects": {}
+            }
+          },
+          "9f28b2e8a20e8a8bfbe4": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "b45a804a5081f3e069b8": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "f004cf1db7687bcd13da": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "493448ceadf0a9e70c70": {
+            "singleVisual": {
+              "visualType": "basicShape",
+              "objects": {}
+            }
+          },
+          "6865e43a37061d716180": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "68703331968c3894115e": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "1b3a2b4e2b02bcc218ca": {
+            "singleVisual": {
+              "visualType": "basicShape",
+              "objects": {}
+            }
+          },
+          "356fe1627387016a4a14": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "f479435161ab7aa5782b": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "02cdbe50384b2bc6ff60": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "726fefb06564a7378a35": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "91b8fcf32944dea4d427": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "99fcfbfbe4ef1be10263": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "c0f89a353cc314c22e8e": {
+            "singleVisual": {
+              "visualType": "basicShape",
+              "objects": {}
+            }
+          },
+          "d586e8a65f7e0e4b3fda": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "df3d71fd7b39aec32b15": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "8b49ac605612ea7293f9": {
+            "singleVisual": {
+              "visualType": "shape",
+              "objects": {}
+            }
+          },
+          "9c802a924470544150b3": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "e1f47c6518a68a7940cb": {
+            "singleVisual": {
+              "visualType": "shape",
+              "objects": {}
+            }
+          },
+          "42a466fea62bb98ae8ab": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "918d3122c6d038ac3906",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "FACT_EAP_GRP_SUBGRP"
+                        }
+                      },
+                      "Property": "Member Eligibility"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "c4d8eb55b3778c764a30",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "FACT_EAP_GRP_SUBGRP"
+                        }
+                      },
+                      "Property": "Member Eligibility %  Change"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "BBED0A4D4D8D44CE93CF2DAFADEE466C",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 2,
+                  "Expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "FACT_EAP_GRP_SUBGRP"
+                        }
+                      },
+                      "Property": "Member Eligibility"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "4b46473854c5b2ad429b": {
+            "singleVisual": {
+              "visualType": "image",
+              "objects": {}
+            }
+          },
+          "6f6c74c752ea4b0d6feb": {
+            "filters": {
+              "byName": {
+                "6550262027b68c15806e": {
+                  "name": "6550262027b68c15806e",
+                  "type": "Categorical",
+                  "filter": {
+                    "Version": 2,
+                    "From": [
+                      {
+                        "Name": "d",
+                        "Entity": "DIM_EAP_INCDNT_ENTY",
+                        "Type": 0
+                      }
+                    ],
+                    "Where": [
+                      {
+                        "Condition": {
+                          "Not": {
+                            "Expression": {
+                              "In": {
+                                "Expressions": [
+                                  {
+                                    "Column": {
+                                      "Expression": {
+                                        "SourceRef": {
+                                          "Source": "d"
+                                        }
+                                      },
+                                      "Property": "TelehealthPreferenceCategory"
+                                    }
+                                  }
+                                ],
+                                "Values": [
+                                  [
+                                    {
+                                      "Literal": {
+                                        "Value": "null"
+                                      }
+                                    }
+                                  ]
+                                ]
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "DIM_EAP_INCDNT_ENTY"
+                        }
+                      },
+                      "Property": "TelehealthPreferenceCategory"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              },
+              "byExpr": [
+                {
+                  "name": "a67fda9eb3a7e225c401",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "FACT_EAP_MBR_INCDNT_DTL"
+                        }
+                      },
+                      "Property": "Incidents PY"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "084c9155d8bfc91f5734",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "FACT_EAP_MBR_INCDNT_DTL"
+                        }
+                      },
+                      "Property": "Incidents % Change"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "05ee3bdfce7876d421f3",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "FACT_EAP_MBR_INCDNT_DTL"
+                        }
+                      },
+                      "Property": "Incidents"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "donutChart",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 2,
+                  "Expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "FACT_EAP_MBR_INCDNT_DTL"
+                        }
+                      },
+                      "Property": "Incidents"
+                    }
+                  }
+                }
+              ],
+              "activeProjections": {
+                "Category": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "DIM_EAP_INCDNT_ENTY"
+                        }
+                      },
+                      "Property": "TelehealthPreferenceCategory"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "71b0d15617a31d5023b8": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "1aab859ebdfc866b2ce1",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "FACT_EAP_GRP_SUBGRP"
+                        }
+                      },
+                      "Property": "Employee Eligibility"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "964ddbbc2df7d17d199e",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "FACT_EAP_GRP_SUBGRP"
+                        }
+                      },
+                      "Property": "Employee Eligibility %  Change"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "BBED0A4D4D8D44CE93CF2DAFADEE466C",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 2,
+                  "Expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "FACT_EAP_GRP_SUBGRP"
+                        }
+                      },
+                      "Property": "Employee Eligibility"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "74089fe401b3e1fd98a6": {
+            "filters": {
+              "byName": {
+                "84c7d3b3143beb27da30": {
+                  "name": "84c7d3b3143beb27da30",
+                  "type": "Categorical",
+                  "filter": {
+                    "Version": 2,
+                    "From": [
+                      {
+                        "Name": "p",
+                        "Entity": "Periods",
+                        "Type": 0
+                      }
+                    ],
+                    "Where": [
+                      {
+                        "Condition": {
+                          "Not": {
+                            "Expression": {
+                              "In": {
+                                "Expressions": [
+                                  {
+                                    "Column": {
+                                      "Expression": {
+                                        "SourceRef": {
+                                          "Source": "p"
+                                        }
+                                      },
+                                      "Property": "Period"
+                                    }
+                                  }
+                                ],
+                                "Values": [
+                                  [
+                                    {
+                                      "Literal": {
+                                        "Value": "'Rolling 12 w runout'"
+                                      }
+                                    }
+                                  ]
+                                ]
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Periods"
+                        }
+                      },
+                      "Property": "Period"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              }
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "general": [
+                    {
+                      "properties": {
+                        "filter": {
+                          "filter": {
+                            "Version": 2,
+                            "From": [
+                              {
+                                "Name": "p",
+                                "Entity": "Periods",
+                                "Type": 0
+                              }
+                            ],
+                            "Where": [
+                              {
+                                "Condition": {
+                                  "In": {
+                                    "Expressions": [
+                                      {
+                                        "Column": {
+                                          "Expression": {
+                                            "SourceRef": {
+                                              "Source": "p"
+                                            }
+                                          },
+                                          "Property": "Period"
+                                        }
+                                      }
+                                    ],
+                                    "Values": [
+                                      [
+                                        {
+                                          "Literal": {
+                                            "Value": "'Monthly'"
+                                          }
+                                        }
+                                      ]
+                                    ]
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  ],
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ],
+                  "selection": [
+                    {
+                      "properties": {
+                        "strictSingleSelect": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "true"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Periods"
+                        }
+                      },
+                      "Property": "Period"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "764661be9d5f9b91f084": {
+            "filters": {
+              "byName": {
+                "d7d4af767d09e8759fe2": {
+                  "name": "d7d4af767d09e8759fe2",
+                  "type": "Categorical",
+                  "filter": {
+                    "Version": 2,
+                    "From": [
+                      {
+                        "Name": "d",
+                        "Entity": "DIM_EAP_INCDNT_ACTY",
+                        "Type": 0
+                      }
+                    ],
+                    "Where": [
+                      {
+                        "Condition": {
+                          "In": {
+                            "Expressions": [
+                              {
+                                "Column": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Source": "d"
+                                    }
+                                  },
+                                  "Property": "Derived EAP Incident Activity Description"
+                                }
+                              }
+                            ],
+                            "Values": [
+                              [
+                                {
+                                  "Literal": {
+                                    "Value": "'Emergency'"
+                                  }
+                                }
+                              ],
+                              [
+                                {
+                                  "Literal": {
+                                    "Value": "'Urgent'"
+                                  }
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "DIM_EAP_INCDNT_ACTY"
+                        }
+                      },
+                      "Property": "Derived EAP Incident Activity Description"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              },
+              "byExpr": [
+                {
+                  "name": "6adc744427c015fab44e",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "DIM_EAP_INCDNT_ACTY"
+                        }
+                      },
+                      "Property": "EAP Incident Activity Description"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "2f63a8d5563e6b729328",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "FACT_EAP_MBR_INCDNT_DTL"
+                        }
+                      },
+                      "Property": "Incidents PY"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "8a9e7ee25afbdde63580",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "FACT_EAP_MBR_INCDNT_DTL"
+                        }
+                      },
+                      "Property": "Incidents % Change"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "d6bdd8583fdf786277db",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "FACT_EAP_MBR_INCDNT_DTL"
+                        }
+                      },
+                      "Property": "Incidents"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "donutChart",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 2,
+                  "Expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "FACT_EAP_MBR_INCDNT_DTL"
+                        }
+                      },
+                      "Property": "Incidents"
+                    }
+                  }
+                }
+              ],
+              "activeProjections": {
+                "Category": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "DIM_EAP_INCDNT_ACTY"
+                        }
+                      },
+                      "Property": "Derived EAP Incident Activity Description"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "765095bf34eb5bd91fa4": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "5a1c743dd09e7fd0b559",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "FACT_EAP_MBR_INCDNT_DTL"
+                        }
+                      },
+                      "Property": "Total Counseling Sessions"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "462a303d9caf1acfd8c7",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "FACT_EAP_MBR_INCDNT_DTL"
+                        }
+                      },
+                      "Property": "Total Counseling Sessions % Change"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "BBED0A4D4D8D44CE93CF2DAFADEE466C",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 2,
+                  "Expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "FACT_EAP_MBR_INCDNT_DTL"
+                        }
+                      },
+                      "Property": "Total Counseling Sessions"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "775d383e08cb3579a7bd": {
+            "singleVisual": {
+              "visualType": "shape",
+              "objects": {}
+            }
+          },
+          "78b63692b2de7ce7d7c3": {
+            "filters": {
+              "byName": {
+                "Filter19d738277d8e72d02607": {
+                  "name": "Filter19d738277d8e72d02607",
+                  "type": "Categorical",
+                  "filter": {
+                    "Version": 2,
+                    "From": [
+                      {
+                        "Name": "c",
+                        "Entity": "Client",
+                        "Type": 0
+                      }
+                    ],
+                    "Where": [
+                      {
+                        "Condition": {
+                          "Not": {
+                            "Expression": {
+                              "In": {
+                                "Expressions": [
+                                  {
+                                    "Column": {
+                                      "Expression": {
+                                        "SourceRef": {
+                                          "Source": "c"
+                                        }
+                                      },
+                                      "Property": "Client Group"
+                                    }
+                                  }
+                                ],
+                                "Values": [
+                                  [
+                                    {
+                                      "Literal": {
+                                        "Value": "null"
+                                      }
+                                    }
+                                  ]
+                                ]
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Client"
+                        }
+                      },
+                      "Property": "Client Group"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              }
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Client"
+                        }
+                      },
+                      "Property": "Client Group"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "7d28337bfba62ce73b41": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "80bc4fe86db6b3fa2390": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "07ec9cf00e074f8dedfe",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "FACT_EAP_MBR_INCDNT_DTL"
+                        }
+                      },
+                      "Property": "Incidents"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "07fbc83b13bcbb5510a0",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "FACT_EAP_MBR_INCDNT_DTL"
+                        }
+                      },
+                      "Property": "Incidents % Change"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "BBED0A4D4D8D44CE93CF2DAFADEE466C",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 2,
+                  "Expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "FACT_EAP_MBR_INCDNT_DTL"
+                        }
+                      },
+                      "Property": "Incidents"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "8526a3b59b69a0f45f8c": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "87a116792982520c8bd0": {
+            "filters": {
+              "byName": {
+                "Filtera0f0a86191539d26d898": {
+                  "name": "Filtera0f0a86191539d26d898",
+                  "type": "Categorical",
+                  "filter": {
+                    "Version": 2,
+                    "From": [
+                      {
+                        "Name": "m",
+                        "Entity": "MBU Chart Field",
+                        "Type": 0
+                      }
+                    ],
+                    "Where": [
+                      {
+                        "Condition": {
+                          "In": {
+                            "Expressions": [
+                              {
+                                "Column": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Source": "m"
+                                    }
+                                  },
+                                  "Property": "MBU Class"
+                                }
+                              }
+                            ],
+                            "Values": [
+                              [
+                                {
+                                  "Literal": {
+                                    "Value": "'Large Group'"
+                                  }
+                                }
+                              ],
+                              [
+                                {
+                                  "Literal": {
+                                    "Value": "'National'"
+                                  }
+                                }
+                              ],
+                              [
+                                {
+                                  "Literal": {
+                                    "Value": "'Small Group'"
+                                  }
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "MBU Chart Field"
+                        }
+                      },
+                      "Property": "MBU Class"
+                    }
+                  },
+                  "howCreated": 1
+                }
+              }
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "MBU Chart Field"
+                        }
+                      },
+                      "Property": "Service Area State Short Desc"
+                    }
+                  }
+                ]
+              },
+              "display": {
+                "mode": "hidden"
+              }
+            }
+          },
+          "8a141007225ec95dc17c": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "8a80b0f8d5e5dc58d46a": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "9188de94f62e69ea7e8d": {
+            "filters": {
+              "byName": {
+                "00e8efc7d8651c2a33bf": {
+                  "name": "00e8efc7d8651c2a33bf",
+                  "type": "Categorical",
+                  "filter": {
+                    "Version": 2,
+                    "From": [
+                      {
+                        "Name": "d",
+                        "Entity": "DIM_EAP_INCDNT_ACTY",
+                        "Type": 0
+                      }
+                    ],
+                    "Where": [
+                      {
+                        "Condition": {
+                          "In": {
+                            "Expressions": [
+                              {
+                                "Column": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Source": "d"
+                                    }
+                                  },
+                                  "Property": "Derived EAP Incident Activity Description"
+                                }
+                              }
+                            ],
+                            "Values": [
+                              [
+                                {
+                                  "Literal": {
+                                    "Value": "'Routine'"
+                                  }
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "DIM_EAP_INCDNT_ACTY"
+                        }
+                      },
+                      "Property": "Derived EAP Incident Activity Description"
+                    }
+                  },
+                  "howCreated": 1
+                }
+              },
+              "byExpr": [
+                {
+                  "name": "3472c022af02e3b5f7cb",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "FACT_EAP_MBR_INCDNT_DTL"
+                        }
+                      },
+                      "Property": "Incidents"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "card",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 2,
+                  "Expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "FACT_EAP_MBR_INCDNT_DTL"
+                        }
+                      },
+                      "Property": "Incidents"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "936c8bcc65b79a11e3fc": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "066511a3476a5992be1c": {
+            "singleVisual": {
+              "visualType": "image",
+              "objects": {}
+            }
+          },
+          "0f0bffd18c26b383ec40": {
+            "singleVisual": {
+              "visualType": "image",
+              "objects": {}
+            }
+          },
+          "15c51362c1f1e2a654b8": {
+            "singleVisual": {
+              "visualType": "image",
+              "objects": {}
+            }
+          },
+          "5254f9f0cfd9562854dc": {
+            "singleVisual": {
+              "visualType": "image",
+              "objects": {}
+            }
+          },
+          "5ccbfa4407ec1b3998eb": {
+            "singleVisual": {
+              "visualType": "image",
+              "objects": {}
+            }
+          },
+          "5edea4b5f516056fbc15": {
+            "singleVisual": {
+              "visualType": "image",
+              "objects": {}
+            }
+          },
+          "887ffd82acef7e312774": {
+            "singleVisual": {
+              "visualType": "image",
+              "objects": {},
+              "display": {
+                "mode": "hidden"
+              }
+            }
+          },
+          "b3dc890ba3f747a6529d": {
+            "singleVisual": {
+              "visualType": "image",
+              "objects": {}
+            }
+          },
+          "eda92754532d3ca99f22": {
+            "singleVisual": {
+              "visualType": "card",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 2,
+                  "Expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Schema": "extension",
+                          "Entity": "WBS_MBR_SUMRY_PGM"
+                        }
+                      },
+                      "Property": "MemberMonths Drillthrough"
+                    }
+                  }
+                }
+              ],
+              "display": {
+                "mode": "hidden"
+              }
+            }
+          },
+          "959eaaf81c8aa1d9024a": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "9e1f831065612c822d06": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "5a9ffe579b0af265baf9",
+                  "type": "Categorical",
+                  "filter": {
+                    "Version": 2,
+                    "From": [
+                      {
+                        "Name": "d",
+                        "Entity": "DIM_EAP_PROD",
+                        "Type": 0
+                      }
+                    ],
+                    "Where": [
+                      {
+                        "Condition": {
+                          "Not": {
+                            "Expression": {
+                              "In": {
+                                "Expressions": [
+                                  {
+                                    "Column": {
+                                      "Expression": {
+                                        "SourceRef": {
+                                          "Source": "d"
+                                        }
+                                      },
+                                      "Property": "EAP Product Description"
+                                    }
+                                  }
+                                ],
+                                "Values": [
+                                  [
+                                    {
+                                      "Literal": {
+                                        "Value": "null"
+                                      }
+                                    }
+                                  ]
+                                ]
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "DIM_EAP_PROD"
+                        }
+                      },
+                      "Property": "EAP Product Description"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "5b322d0db6b9f9eff95a",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "DIM_EAP_PROD"
+                        }
+                      },
+                      "Property": "EAP Product Group Description"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "DIM_EAP_PROD"
+                        }
+                      },
+                      "Property": "EAP Product Group Description"
+                    }
+                  }
+                ]
+              },
+              "expansionStates": [
+                {
+                  "roles": [
+                    "Values"
+                  ],
+                  "levels": [
+                    {
+                      "queryRefs": [
+                        "DIM_EAP_PROD.EAP Product Group Description"
+                      ],
+                      "isCollapsed": true,
+                      "identityKeys": [
+                        {
+                          "Column": {
+                            "Expression": {
+                              "SourceRef": {
+                                "Entity": "DIM_EAP_PROD"
+                              }
+                            },
+                            "Property": "EAP Product Group Description"
+                          }
+                        }
+                      ],
+                      "isPinned": true
+                    },
+                    {
+                      "queryRefs": [
+                        "DIM_EAP_PROD.EAP Product Description"
+                      ],
+                      "isCollapsed": true,
+                      "isPinned": true
+                    }
+                  ],
+                  "root": {
+                    "identityValues": []
+                  }
+                }
+              ]
+            }
+          },
+          "a1e8e6dc9af6e7dfa1a1": {
+            "singleVisual": {
+              "visualType": "shape",
+              "objects": {}
+            }
+          },
+          "a2772e0ab83f6ea6cf62": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "a9859621692e2ab51514": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "a9fb64a8da89a3ead02f": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "afa616a0b2c5593ae136": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "Filter8084aa47b4c6c5592867",
+                  "type": "Categorical",
+                  "filter": {
+                    "Version": 2,
+                    "From": [
+                      {
+                        "Name": "m",
+                        "Entity": "MBU Chart Field",
+                        "Type": 0
+                      }
+                    ],
+                    "Where": [
+                      {
+                        "Condition": {
+                          "In": {
+                            "Expressions": [
+                              {
+                                "Column": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Source": "m"
+                                    }
+                                  },
+                                  "Property": "MBU Class FullForm"
+                                }
+                              }
+                            ],
+                            "Values": [
+                              [
+                                {
+                                  "Literal": {
+                                    "Value": "'Small Group'"
+                                  }
+                                }
+                              ],
+                              [
+                                {
+                                  "Literal": {
+                                    "Value": "'Large Group'"
+                                  }
+                                }
+                              ],
+                              [
+                                {
+                                  "Literal": {
+                                    "Value": "'National'"
+                                  }
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "MBU Chart Field"
+                        }
+                      },
+                      "Property": "MBU Class FullForm"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "f57e1bd06045a3baca4c",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "DIM_EAP_ST"
+                        }
+                      },
+                      "Property": "State Code (Group Contract)"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "bcc3f4174ed35804de20",
+                  "type": "Advanced",
+                  "filter": {
+                    "Version": 2,
+                    "From": [
+                      {
+                        "Name": "f",
+                        "Entity": "FACT_EAP_GRP_SUBGRP",
+                        "Type": 0
+                      }
+                    ],
+                    "Where": [
+                      {
+                        "Condition": {
+                          "Comparison": {
+                            "ComparisonKind": 1,
+                            "Left": {
+                              "Measure": {
+                                "Expression": {
+                                  "SourceRef": {
+                                    "Source": "f"
+                                  }
+                                },
+                                "Property": "Estimated Members Eligible"
+                              }
+                            },
+                            "Right": {
+                              "Literal": {
+                                "Value": "0L"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "FACT_EAP_GRP_SUBGRP"
+                        }
+                      },
+                      "Property": "Estimated Members Eligible"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "6de37ae141b40d200040",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "FACT_EAP_GRP_SUBGRP"
+                        }
+                      },
+                      "Property": "Estimated Members Eligible"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "3d53c334c527db8c6fc8",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "MBU Chart Field"
+                        }
+                      },
+                      "Property": "Service Area State Shortdesc"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "MBU Chart Field"
+                        }
+                      },
+                      "Property": "Service Area State Shortdesc"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "b64d1b3bcf609b18fcbb": {
+            "filters": {
+              "byName": {
+                "Filter9566ae6d73875eba74d6": {
+                  "name": "Filter9566ae6d73875eba74d6",
+                  "type": "Categorical",
+                  "filter": {
+                    "Version": 2,
+                    "From": [
+                      {
+                        "Name": "m",
+                        "Entity": "MBU Chart Field",
+                        "Type": 0
+                      }
+                    ],
+                    "Where": [
+                      {
+                        "Condition": {
+                          "In": {
+                            "Expressions": [
+                              {
+                                "Column": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Source": "m"
+                                    }
+                                  },
+                                  "Property": "MBU Class FullForm"
+                                }
+                              }
+                            ],
+                            "Values": [
+                              [
+                                {
+                                  "Literal": {
+                                    "Value": "'Small Group'"
+                                  }
+                                }
+                              ],
+                              [
+                                {
+                                  "Literal": {
+                                    "Value": "'Large Group'"
+                                  }
+                                }
+                              ],
+                              [
+                                {
+                                  "Literal": {
+                                    "Value": "'National'"
+                                  }
+                                }
+                              ],
+                              [
+                                {
+                                  "Literal": {
+                                    "Value": "'Local Group Green'"
+                                  }
+                                }
+                              ],
+                              [
+                                {
+                                  "Literal": {
+                                    "Value": "'Individual'"
+                                  }
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "MBU Chart Field"
+                        }
+                      },
+                      "Property": "MBU Class FullForm"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              }
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "MBU Chart Field"
+                        }
+                      },
+                      "Property": "MBU Class FullForm"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "c0ccf609cd5ed3254101": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "c76c8281fc9d56239d6f": {
+            "singleVisual": {
+              "visualType": "shape",
+              "objects": {}
+            }
+          },
+          "cbe73d24ab92b5280867": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "cdfa2f457630e9b767f2": {
+            "filters": {
+              "byName": {
+                "Filteree4e648a8ffb32f08957": {
+                  "name": "Filteree4e648a8ffb32f08957",
+                  "type": "Categorical",
+                  "filter": {
+                    "Version": 2,
+                    "From": [
+                      {
+                        "Name": "i",
+                        "Entity": "Incurred Month",
+                        "Type": 0
+                      }
+                    ],
+                    "Where": [
+                      {
+                        "Condition": {
+                          "Not": {
+                            "Expression": {
+                              "In": {
+                                "Expressions": [
+                                  {
+                                    "Column": {
+                                      "Expression": {
+                                        "SourceRef": {
+                                          "Source": "i"
+                                        }
+                                      },
+                                      "Property": "DefaultYearMonth"
+                                    }
+                                  }
+                                ],
+                                "Values": [
+                                  [
+                                    {
+                                      "Literal": {
+                                        "Value": "' Current + 1 Month (Advanced)'"
+                                      }
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "Literal": {
+                                        "Value": "null"
+                                      }
+                                    }
+                                  ]
+                                ]
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Incurred Month"
+                        }
+                      },
+                      "Property": "DefaultYearMonth"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              }
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "general": [
+                    {
+                      "properties": {
+                        "filter": {
+                          "filter": {
+                            "Version": 2,
+                            "From": [
+                              {
+                                "Name": "i",
+                                "Entity": "Incurred Month",
+                                "Type": 0
+                              }
+                            ],
+                            "Where": [
+                              {
+                                "Condition": {
+                                  "In": {
+                                    "Expressions": [
+                                      {
+                                        "Column": {
+                                          "Expression": {
+                                            "SourceRef": {
+                                              "Source": "i"
+                                            }
+                                          },
+                                          "Property": "DefaultYearMonth"
+                                        }
+                                      }
+                                    ],
+                                    "Values": [
+                                      [
+                                        {
+                                          "Literal": {
+                                            "Value": "'Current'"
+                                          }
+                                        }
+                                      ]
+                                    ]
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  ],
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ],
+                  "selection": [
+                    {
+                      "properties": {
+                        "strictSingleSelect": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "true"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "orderBy": [
+                {
+                  "Direction": 2,
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Incurred Month"
+                        }
+                      },
+                      "Property": "DefaultYearMonth"
+                    }
+                  }
+                }
+              ],
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Incurred Month"
+                        }
+                      },
+                      "Property": "DefaultYearMonth"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "cfcfda582acf40870f02": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "d8337aa7ad7d229a4bc6": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "5a0f712e084862553555",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Schema": "extension",
+                          "Entity": "Incurred Month"
+                        }
+                      },
+                      "Property": "Reporting Year Month Title"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "card",
+              "objects": {}
+            }
+          },
+          "39de29bfff3b982eaec0": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "dcb3d965e3b47e0bab1c": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "eda2c00c12ce23379dcd": {
+            "singleVisual": {
+              "visualType": "shape",
+              "objects": {}
+            }
+          },
+          "efaf6a483b72020bcfaf": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "f93aba55b454051dec97",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "DIM_EAP_INCDNT_ACTY"
+                        }
+                      },
+                      "Property": "Derived EAP Incident Activity Description"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "45af65c9dc2c6165ff40",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "FACT_EAP_MBR_INCDNT_DTL"
+                        }
+                      },
+                      "Property": "Incidents"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "card",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 2,
+                  "Expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "FACT_EAP_MBR_INCDNT_DTL"
+                        }
+                      },
+                      "Property": "Incidents"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "f4378c1b03ff31511e1d": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "748b28de243ab6dab230",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "FACT_EAP_MBR_INCDNT_DTL"
+                        }
+                      },
+                      "Property": "Total Incidents per 1,000 Employees"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "3694aa3839152c2eb1f1",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "FACT_EAP_MBR_INCDNT_DTL"
+                        }
+                      },
+                      "Property": "Total Incidents per 1,000 Employees %  Change"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "BBED0A4D4D8D44CE93CF2DAFADEE466C",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 2,
+                  "Expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "FACT_EAP_MBR_INCDNT_DTL"
+                        }
+                      },
+                      "Property": "Total Incidents per 1,000 Employees"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "f628c1421ed2e44e9ff7": {
+            "singleVisual": {
+              "visualType": "shape",
+              "objects": {}
+            }
+          },
+          "f647b4e3db8c949b0b3b": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "f90371c1842250274ee0": {
+            "filters": {
+              "byName": {
+                "Filter9566ae6d73875eba74d6": {
+                  "name": "Filter9566ae6d73875eba74d6",
+                  "type": "Categorical",
+                  "filter": {
+                    "Version": 2,
+                    "From": [
+                      {
+                        "Name": "m",
+                        "Entity": "MBU Chart Field",
+                        "Type": 0
+                      }
+                    ],
+                    "Where": [
+                      {
+                        "Condition": {
+                          "In": {
+                            "Expressions": [
+                              {
+                                "Column": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Source": "m"
+                                    }
+                                  },
+                                  "Property": "MBU Class FullForm"
+                                }
+                              }
+                            ],
+                            "Values": [
+                              [
+                                {
+                                  "Literal": {
+                                    "Value": "'Small Group'"
+                                  }
+                                }
+                              ],
+                              [
+                                {
+                                  "Literal": {
+                                    "Value": "'Large Group'"
+                                  }
+                                }
+                              ],
+                              [
+                                {
+                                  "Literal": {
+                                    "Value": "'National'"
+                                  }
+                                }
+                              ],
+                              [
+                                {
+                                  "Literal": {
+                                    "Value": "'Local Group Green'"
+                                  }
+                                }
+                              ],
+                              [
+                                {
+                                  "Literal": {
+                                    "Value": "'Individual'"
+                                  }
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "MBU Chart Field"
+                        }
+                      },
+                      "Property": "MBU Class FullForm"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                "fd0d136989c92a5e493c": {
+                  "name": "fd0d136989c92a5e493c",
+                  "type": "Categorical",
+                  "filter": {
+                    "Version": 2,
+                    "From": [
+                      {
+                        "Name": "s",
+                        "Entity": "Standalone",
+                        "Type": 0
+                      }
+                    ],
+                    "Where": [
+                      {
+                        "Condition": {
+                          "In": {
+                            "Expressions": [
+                              {
+                                "Column": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Source": "s"
+                                    }
+                                  },
+                                  "Property": "Standalone Code"
+                                }
+                              }
+                            ],
+                            "Values": [
+                              [
+                                {
+                                  "Literal": {
+                                    "Value": "'NO'"
+                                  }
+                                }
+                              ],
+                              [
+                                {
+                                  "Literal": {
+                                    "Value": "'YES'"
+                                  }
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Standalone"
+                        }
+                      },
+                      "Property": "Standalone Code"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              }
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Standalone"
+                        }
+                      },
+                      "Property": "Standalone Code"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "faa977cd69275b07f7bc": {
+            "filters": {
+              "byName": {
+                "Filterb742b652b5a6d081d5c9": {
+                  "name": "Filterb742b652b5a6d081d5c9",
+                  "type": "Categorical",
+                  "filter": {
+                    "Version": 2,
+                    "From": [
+                      {
+                        "Name": "f",
+                        "Entity": "Funding Chart Field",
+                        "Type": 0
+                      }
+                    ],
+                    "Where": [
+                      {
+                        "Condition": {
+                          "Not": {
+                            "Expression": {
+                              "In": {
+                                "Expressions": [
+                                  {
+                                    "Column": {
+                                      "Expression": {
+                                        "SourceRef": {
+                                          "Source": "f"
+                                        }
+                                      },
+                                      "Property": "Funding Type"
+                                    }
+                                  }
+                                ],
+                                "Values": [
+                                  [
+                                    {
+                                      "Literal": {
+                                        "Value": "'Funding Default'"
+                                      }
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "Literal": {
+                                        "Value": "'Funding Unknown'"
+                                      }
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "Literal": {
+                                        "Value": "null"
+                                      }
+                                    }
+                                  ]
+                                ]
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Funding Chart Field"
+                        }
+                      },
+                      "Property": "Funding Type"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              }
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Funding Chart Field"
+                        }
+                      },
+                      "Property": "Funding Type"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "7005814c9302ac5b7bba": {
+            "singleVisual": {
+              "visualType": "shape",
+              "objects": {}
+            }
+          },
+          "32662b96b55c51a31085": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "085e7eb7d3f1aa7b7060": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "b618d53235562ffe1ee1": {
+            "singleVisual": {
+              "visualType": "basicShape",
+              "objects": {}
+            }
+          },
+          "0383013c0f923f82fe3e": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "62b1c8c3e0192b378cab": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "ce55657c1daf498e2515": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "e188a30e7d55f34ec6cd": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "521b722f48043cda0e62": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "965910de2cceeb9fbd3b": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "b8453b5268b5ac69a63e": {
+            "singleVisual": {
+              "visualType": "basicShape",
+              "objects": {}
+            }
+          },
+          "2c22f5caf05ffb3be03f": {
+            "singleVisual": {
+              "visualType": "basicShape",
+              "objects": {}
+            }
+          },
+          "26d7a402549049404753": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "cc1d45eb717352c673ab": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "9e9452091f37653ddccd": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "defde627b3b7ba1d797e": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "2099c9f2d682c325c167": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "3ccc1abce0b9fc796a37": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "955516a1feeb2e04d31b": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "103750b0039069f584cc": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "f7e3da2561b7b2b8f43b": {
+            "singleVisual": {
+              "visualType": "shape",
+              "objects": {}
+            }
+          },
+          "440a8ee4563e58b20847": {
+            "singleVisual": {
+              "visualType": "basicShape",
+              "objects": {}
+            }
+          },
+          "4181aa4fb4f46eee0968": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "96fb4677d910b4c1695a": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "275c30993e3556c6305b": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "7a71a8eb9ceaed4483ad": {
+            "singleVisual": {
+              "visualType": "shape",
+              "objects": {}
+            }
+          }
+        },
+        "visualContainerGroups": {
+          "4016a5e80c626be445d7": {
+            "isHidden": true
+          },
+          "d8ffee30d1ce4ddf265a": {
+            "isHidden": false
+          },
+          "824def4c2225998bc9e5": {
+            "isHidden": true,
+            "children": {
+              "ccf2edad9f1682b69867": {
+                "isHidden": false
+              }
+            }
+          }
+        }
+      }
+    },
+    "objects": {
+      "merge": {
+        "outspacePane": [
+          {
+            "properties": {
+              "expanded": {
+                "expr": {
+                  "Literal": {
+                    "Value": "false"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
+  "name": "c1db9185999881b74d50",
+  "position": {
+    "x": 8.7628865979381434,
+    "y": 235.82474226804129,
+    "z": 41000,
+    "height": 1564.1752577319587,
+    "width": 3391.2371134020618,
+    "tabOrder": 7000
+  },
+  "visualGroup": {
+    "displayName": "Open Menu",
+    "groupMode": "ScaleMode",
+    "objects": {
+      "background": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            },
+            "transparency": {
+              "expr": {
+                "Literal": {
+                  "Value": "70D"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  "isHidden": true
+}

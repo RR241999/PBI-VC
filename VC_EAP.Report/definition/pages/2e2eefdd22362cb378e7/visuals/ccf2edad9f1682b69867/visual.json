@@ -1,0 +1,32 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
+  "name": "ccf2edad9f1682b69867",
+  "position": {
+    "x": 87.8048780487805,
+    "y": 5.0064685714572192,
+    "z": 2000,
+    "height": 932.08255159474675,
+    "width": 421.01313320825517,
+    "tabOrder": 0
+  },
+  "visualGroup": {
+    "displayName": "Pages",
+    "groupMode": "ScaleMode",
+    "objects": {
+      "background": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  "parentGroupName": "824def4c2225998bc9e5"
+}

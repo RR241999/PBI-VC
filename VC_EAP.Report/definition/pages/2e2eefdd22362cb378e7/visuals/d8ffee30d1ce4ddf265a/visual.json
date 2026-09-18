@@ -1,0 +1,16 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
+  "name": "d8ffee30d1ce4ddf265a",
+  "position": {
+    "x": 2.0387576320679588,
+    "y": 152.00550082611738,
+    "z": 45000,
+    "height": 65.240244226174681,
+    "width": 87.666578178922222,
+    "tabOrder": 61000
+  },
+  "visualGroup": {
+    "displayName": "Closed Menu",
+    "groupMode": "ScaleMode"
+  }
+}

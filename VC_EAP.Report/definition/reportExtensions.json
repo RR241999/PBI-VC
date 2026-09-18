@@ -1,0 +1,159 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/reportExtension/1.0.0/schema.json",
+  "name": "extension",
+  "entities": [
+    {
+      "name": "FACT_EAP_SPRVSR_RFRL_DTL",
+      "measures": [
+        {
+          "name": "Management Referrals DSH",
+          "dataType": "Integer",
+          "expression": "\nIF(ISBLANK([Management Referrals]),0,[Management Referrals])",
+          "formatString": "0",
+          "references": {
+            "measures": [
+              {
+                "entity": "FACT_EAP_SPRVSR_RFRL_DTL",
+                "name": "Management Referrals"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Report Tooltip",
+          "dataType": "Double",
+          "expression": "\"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              \""
+        }
+      ]
+    },
+    {
+      "name": "Incurred Month",
+      "measures": [
+        {
+          "name": "Reporting Year Month Title",
+          "dataType": "Double",
+          "expression": "\"Reporting Year Month - \" & SELECTEDVALUE('Incurred Month'[Incurred Year Month Nbr])"
+        },
+        {
+          "name": "Incurred Month Title",
+          "dataType": "Double",
+          "expression": "\"Incurred Month - \" & SELECTEDVALUE('Incurred Month'[Incurred Year Month Nbr])"
+        }
+      ]
+    },
+    {
+      "name": "FACT_EAP_MBR_INCDNT_DTL",
+      "measures": [
+        {
+          "name": "DynamicTextSession",
+          "dataType": "Double",
+          "expression": "\n\"All incidents created  between \"&[Min Date for Incidents]&\"- \"&[Max Date for Incidents]\n&\", count all sessions completed between \"&FORMAT([Min Date],\"YYYYMM\")&\"- \"&FORMAT([Max Date],\"YYYYMM\") & \".\"",
+          "references": {
+            "measures": [
+              {
+                "schema": "extension",
+                "entity": "FACT_EAP_MBR_INCDNT_DTL",
+                "name": "Min Date for Incidents"
+              },
+              {
+                "schema": "extension",
+                "entity": "FACT_EAP_MBR_INCDNT_DTL",
+                "name": "Max Date for Incidents"
+              },
+              {
+                "schema": "extension",
+                "entity": "FACT_EAP_MBR_INCDNT_DTL",
+                "name": "Min Date"
+              },
+              {
+                "schema": "extension",
+                "entity": "FACT_EAP_MBR_INCDNT_DTL",
+                "name": "Max Date"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Min Date for Incidents",
+          "dataType": "Double",
+          "expression": "\nVAR _Sliding =\n\n    TRIM ( [Selected Sliding Window] )\n\nVAR min_date =\n\n    IF (        _Sliding = \"YTD\",\n\n        STARTOFYEAR ( 'Incurred Month'[Incurred Month Begin Dt] ),\n\n        IF (            _Sliding = \"15\",\n\n            EDATE (MIN ( 'Incurred Month'[Incurred Month Begin Dt] ),\n\n                1 - VALUE ( _Sliding )),\n\n            EDATE (MIN ( 'Incurred Month'[Incurred Month Begin Dt] ),\n\n                1 - VALUE ( [Selected Sliding Window] ))))VAR max_date =\n\n    IF (        _Sliding = \"15\",\n\n        EDATE ( MAX ( 'Incurred Month'[Incurred Month Begin Dt] ), -3 ),\n\n        MAX ( 'Incurred Month'[Incurred Month Begin Dt] ))\n        RETURN Format(min_date,\"YYYYMM\")\n",
+          "references": {
+            "measures": [
+              {
+                "entity": "Periods",
+                "name": "Selected Sliding Window"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Max Date for Incidents",
+          "dataType": "Double",
+          "expression": "\nVAR _Sliding =\n    TRIM ( [Selected Sliding Window] )\nVar Max_date = IF (\n        _Sliding = \"15\",\n        EDATE ( MAX ( 'Incurred Month'[Incurred Month Begin Dt]), -3 ),\n        MAX ( 'Incurred Month'[Incurred Month Begin Dt]))\n        return\nFORMAT(Max_date,\"YYYYMM\")\n",
+          "references": {
+            "measures": [
+              {
+                "entity": "Periods",
+                "name": "Selected Sliding Window"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Min Date",
+          "dataType": "Double",
+          "expression": "\nVAR _Sliding =\n    TRIM ( [Selected Sliding Window] )\nVAR min_date =\n    IF (\n        _Sliding = \"YTD\",\n        STARTOFYEAR ( 'FACT_INCDNT_SESN'[Session Created Date] ),\n        IF (\n            _Sliding = \"15\",\n            EDATE (\n                MIN ( 'FACT_INCDNT_SESN'[Session Created Date] ),\n                1 - VALUE ( _Sliding )\n            ),\n            EDATE (\n                MIN ( 'FACT_INCDNT_SESN'[Session Created Date] ),\n                1 - VALUE ( [Selected Sliding Window] )\n            )\n        )\n    )\nReturn \nmin_date",
+          "references": {
+            "unrecognizedReferences": true,
+            "measures": [
+              {
+                "entity": "Periods",
+                "name": "Selected Sliding Window"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Max Date",
+          "dataType": "Double",
+          "expression": "\n \nVAR _Sliding =\n    TRIM ( [Selected Sliding Window] )\nVAR max_date =\n    IF (\n        _Sliding = \"15\",\n        EDATE ( MAX ( FACT_INCDNT_SESN[Session Created Date] ), -3 ),\n        MAX ( FACT_INCDNT_SESN[Session Created Date] ))\nReturn \nmax_date",
+          "references": {
+            "unrecognizedReferences": true,
+            "measures": [
+              {
+                "entity": "Periods",
+                "name": "Selected Sliding Window"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "FACT_EAP_SRVY_DTL",
+      "measures": [
+        {
+          "name": "X out of N Super Score",
+          "dataType": "Double",
+          "expression": "\"Improved: \" & FORMAT([SuperScoreImproved%],\"00.0%\") &\" (\"&[SuperScoreImproved] &\" out of \"& [SuperScore Respondents]&\")\"",
+          "references": {
+            "measures": [
+              {
+                "entity": "FACT_EAP_SRVY_DTL",
+                "name": "SuperScoreImproved%"
+              },
+              {
+                "entity": "FACT_EAP_SRVY_DTL",
+                "name": "SuperScoreImproved"
+              },
+              {
+                "entity": "FACT_EAP_SRVY_DTL",
+                "name": "SuperScore Respondents"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

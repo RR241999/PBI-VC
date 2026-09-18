@@ -1,0 +1,183 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
+  "name": "d0616486d8ea5ded0284",
+  "position": {
+    "x": 14.117748432821351,
+    "y": 0,
+    "z": 0,
+    "height": 172.94241830206155,
+    "width": 901.77118114646385,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "FACT_EAP_GRP_SUBGRP"
+                    }
+                  },
+                  "Property": "Estimated Members Eligible"
+                }
+              },
+              "queryRef": "FACT_EAP_GRP_SUBGRP.Estimated Members Eligible",
+              "nativeQueryRef": "Estimated Members Eligible"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "FACT_EAP_GRP_SUBGRP"
+                    }
+                  },
+                  "Property": "Estimated Members Eligible Base"
+                }
+              },
+              "queryRef": "FACT_EAP_GRP_SUBGRP.Estimated Members Eligible Base",
+              "nativeQueryRef": "Estimated Members Eligible Base"
+            },
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "FACT_EAP_GRP_SUBGRP"
+                        }
+                      },
+                      "Property": "EAP_GRP_ID"
+                    }
+                  },
+                  "Function": 2
+                }
+              },
+              "queryRef": "FACT_EAP_GRP_SUBGRP.EAP_GRP_ID",
+              "nativeQueryRef": "Count of EAP_GRP_ID"
+            },
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "FACT_EAP_GRP_SUBGRP"
+                        }
+                      },
+                      "Property": "Group Estimated Member Count"
+                    }
+                  },
+                  "Function": 4
+                }
+              },
+              "queryRef": "Sum(FACT_EAP_GRP_SUBGRP.Group Estimated Member Count)",
+              "nativeQueryRef": "Max of Group Estimated Member Count"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "isDefaultSort": true
+      }
+    },
+    "objects": {
+      "values": [
+        {
+          "properties": {
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "25D"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "titleWrap": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "spacing": [
+        {
+          "properties": {
+            "spaceAbovePlotArea": {
+              "expr": {
+                "Literal": {
+                  "Value": "16D"
+                }
+              }
+            },
+            "spaceAboveDivider": {
+              "expr": {
+                "Literal": {
+                  "Value": "4D"
+                }
+              }
+            },
+            "spaceAboveSubtitle": {
+              "expr": {
+                "Literal": {
+                  "Value": "2D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "background": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "transparency": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "border": [
+        {
+          "properties": {
+            "width": {
+              "expr": {
+                "Literal": {
+                  "Value": "1D"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

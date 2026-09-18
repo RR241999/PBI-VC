@@ -1,0 +1,43 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
+  "name": "c7699d7a18b52f08c108",
+  "position": {
+    "x": 91.742314831492934,
+    "y": 0.9455322153470398,
+    "z": 3000,
+    "height": 1305.34185522178,
+    "width": 402.2883620632719,
+    "tabOrder": 3000
+  },
+  "visualGroup": {
+    "displayName": "Pages",
+    "groupMode": "ScaleMode",
+    "objects": {
+      "background": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#1A3673'"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  "parentGroupName": "41ab690b2713ebaa6189"
+}

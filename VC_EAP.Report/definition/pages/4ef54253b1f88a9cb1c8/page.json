@@ -1,0 +1,10 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.1.0/schema.json",
+  "name": "4ef54253b1f88a9cb1c8",
+  "displayName": "TTTotal Management  Consultations",
+  "displayOption": "ActualSize",
+  "height": 70,
+  "width": 300,
+  "visibility": "HiddenInViewMode",
+  "type": "Tooltip"
+}

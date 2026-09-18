@@ -1,0 +1,333 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/report/3.3.0/schema.json",
+  "themeCollection": {
+    "baseTheme": {
+      "name": "CY26SU07",
+      "reportVersionAtImport": {
+        "visual": "2.11.0",
+        "report": "3.4.0",
+        "page": "2.3.1"
+      },
+      "type": "SharedResources"
+    }
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "95819e3e814757d78e10",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "DIM_EAP_GRP"
+              }
+            },
+            "Property": "EAP Client Group ID"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "User"
+      },
+      {
+        "name": "db2a19eccb7b2a912d32",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "DIM_EAP_GRP"
+              }
+            },
+            "Property": "EAP Client Group Name"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "User"
+      },
+      {
+        "name": "5db84d8b0878047f237c",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Client"
+              }
+            },
+            "Property": "Client Group"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "User"
+      },
+      {
+        "name": "20d040b255f18fff1ad2",
+        "displayName": "State",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "MBU Chart Field"
+              }
+            },
+            "Property": "Service Area State Shortdesc"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "User"
+      },
+      {
+        "name": "4a9e92a25df9615989cd",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Funding Chart Field"
+              }
+            },
+            "Property": "Funding Type"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "User"
+      },
+      {
+        "name": "9363bb324e85bf4d492b",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "MBU Chart Field"
+              }
+            },
+            "Property": "MBU Class FullForm"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "User"
+      },
+      {
+        "name": "eb50f9314c0d7af92138",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "DIM_EAP_PROD"
+              }
+            },
+            "Property": "EAP Product Description"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "User"
+      },
+      {
+        "name": "25e5e35250155e35279b",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "DIM_EAP_PROD"
+              }
+            },
+            "Property": "EAP Product Group Description"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "User"
+      },
+      {
+        "name": "ac67577beef352589040",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "DIM_EAP_SESN_MDL"
+              }
+            },
+            "Property": "EAP Incident Session Model Description"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "User"
+      }
+    ],
+    "filterSortOrder": "Ascending"
+  },
+  "objects": {
+    "section": [
+      {
+        "properties": {
+          "verticalAlignment": {
+            "expr": {
+              "Literal": {
+                "Value": "'Top'"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "outspacePane": [
+      {
+        "properties": {
+          "expanded": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "publicCustomVisuals": [
+    "BBED0A4D4D8D44CE93CF2DAFADEE466C"
+  ],
+  "resourcePackages": [
+    {
+      "name": "SharedResources",
+      "type": "SharedResources",
+      "items": [
+        {
+          "name": "CY26SU07",
+          "path": "BaseThemes/CY26SU07.json",
+          "type": "BaseTheme"
+        }
+      ]
+    },
+    {
+      "name": "RegisteredResources",
+      "type": "RegisteredResources",
+      "items": [
+        {
+          "name": "343953723554360359194515.png",
+          "path": "343953723554360359194515.png",
+          "type": "Image"
+        },
+        {
+          "name": "343956408548257540080284.png",
+          "path": "343956408548257540080284.png",
+          "type": "Image"
+        },
+        {
+          "name": "35212874896389068769733.png",
+          "path": "35212874896389068769733.png",
+          "type": "Image"
+        },
+        {
+          "name": "47321770739279090976539.png",
+          "path": "47321770739279090976539.png",
+          "type": "Image"
+        },
+        {
+          "name": "abstract-textured-backgound_125367627772698387.png",
+          "path": "abstract-textured-backgound_125367627772698387.png",
+          "type": "Image"
+        },
+        {
+          "name": "b1-removebg-preview08625412909280028.png",
+          "path": "b1-removebg-preview08625412909280028.png",
+          "type": "Image"
+        },
+        {
+          "name": "Back_1324936863656496.JPG",
+          "path": "Back_1324936863656496.JPG",
+          "type": "Image"
+        },
+        {
+          "name": "back_251030700036128.JPG",
+          "path": "back_251030700036128.JPG",
+          "type": "Image"
+        },
+        {
+          "name": "back_white_transparent4391598859538759.png",
+          "path": "back_white_transparent4391598859538759.png",
+          "type": "Image"
+        },
+        {
+          "name": "c3-removebg-preview23621735245846254.png",
+          "path": "c3-removebg-preview23621735245846254.png",
+          "type": "Image"
+        },
+        {
+          "name": "close_14977056781763336.png",
+          "path": "close_14977056781763336.png",
+          "type": "Image"
+        },
+        {
+          "name": "contact_support_white_transpar747210713396498.png",
+          "path": "contact_support_white_transpar747210713396498.png",
+          "type": "Image"
+        },
+        {
+          "name": "download_white_transparent7824709683202655.png",
+          "path": "download_white_transparent7824709683202655.png",
+          "type": "Image"
+        },
+        {
+          "name": "drill_down_white_transparent41404386117130576.png",
+          "path": "drill_down_white_transparent41404386117130576.png",
+          "type": "Image"
+        },
+        {
+          "name": "home_white_transparent9039831335097563.png",
+          "path": "home_white_transparent9039831335097563.png",
+          "type": "Image"
+        },
+        {
+          "name": "home-removebg-preview4365386569574614.png",
+          "path": "home-removebg-preview4365386569574614.png",
+          "type": "Image"
+        },
+        {
+          "name": "market-segment8592204623303423.png",
+          "path": "market-segment8592204623303423.png",
+          "type": "Image"
+        },
+        {
+          "name": "Menu_Button9235432787998803.JPG",
+          "path": "Menu_Button9235432787998803.JPG",
+          "type": "Image"
+        },
+        {
+          "name": "New_Menu_Button5321230834631798.JPG",
+          "path": "New_Menu_Button5321230834631798.JPG",
+          "type": "Image"
+        },
+        {
+          "name": "PA14-removebg-preview168432684637154.png",
+          "path": "PA14-removebg-preview168432684637154.png",
+          "type": "Image"
+        },
+        {
+          "name": "PA143418662237779595.png",
+          "path": "PA143418662237779595.png",
+          "type": "Image"
+        },
+        {
+          "name": "report_an_issue_white_transpar8408399409976199.png",
+          "path": "report_an_issue_white_transpar8408399409976199.png",
+          "type": "Image"
+        },
+        {
+          "name": "reset_filters_white_transparen5756569595542291.png",
+          "path": "reset_filters_white_transparen5756569595542291.png",
+          "type": "Image"
+        },
+        {
+          "name": "user_guide_white_transparent6195610381069279.png",
+          "path": "user_guide_white_transparent6195610381069279.png",
+          "type": "Image"
+        }
+      ]
+    }
+  ],
+  "settings": {
+    "useStylableVisualContainerHeader": true,
+    "exportDataMode": "AllowSummarized",
+    "defaultDrillFilterOtherVisuals": true,
+    "allowChangeFilterTypes": true,
+    "useEnhancedTooltips": true,
+    "useDefaultAggregateDisplayName": true
+  }
+}
